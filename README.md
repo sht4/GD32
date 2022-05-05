@@ -8,4 +8,5 @@ GD - 256 кБайт\
 Для начала взаимодействия с GigaDevices нужен Keil MKD-ARM и [библиотеки](https://www.keil.com/dd2/pack/#!#third-party-download-dialog) под него от производителя микроконтроллеров. Библиотека подбирается под конкретное семейство микроконтроллера (F1, F2, F3...). В моём случае это был GD32F30x software pack. На сайте производителя он выглядит так:\
 **GigaDevice GD32F30x Series Device Support and Examples**\
 \
-Потом надо этот pack добавить в папку ```~/ARM/Packs```
+Потом надо этот pack добавить в папку ```~/ARM/Packs```\
+
