@@ -3,4 +3,9 @@
 \
 Что бы подключить GigaDevices к Keil, воспользовался проектом c Китайского гита от пользователя [William_William](https://gitee.com/william_william/GD32/tree/master). В Китайском проекте используется контроллер [GD32F303R](https://www.gigadevice.com/products/product-finder/?fwp_processor_type=cortex-m4&fwp_microcontrollers_product_series=gd32f303&fwp_microcontroller_part_number=GD32F303R), а в нашем [GD32F303RCT6](https://www.gigadevice.com/microcontroller/gd32f303rct6). Разница микроконтроллеров от STM и GD в нашем случае состоит только в памяти.\
 ST - 512 кБайт\
-GD - 256 кБайт. 
+GD - 256 кБайт\
+\
+Для начала взаимодействия с GigaDevices нужен Keil MKD-ARM и [библиотеки](https://www.keil.com/dd2/pack/#!#third-party-download-dialog) под него от производителя микроконтроллеров. Библиотека подбирается под конкретное семейство микроконтроллера (F1, F2, F3...). В моём случае это был GD32F30x software pack. На сайте производителя он выглядит так:\
+**GigaDevice GD32F30x Series Device Support and Examples**\
+\
+Потом надо этот pack добавить в папку ```~/ARM/Packs```
